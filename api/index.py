@@ -175,7 +175,7 @@ def cache_playfab_id():
     return jsonify({"Message": "Success"}), 200
 
 
-@app.route('/api/TitleData', methods=['POST', 'GET'])
+@app.route('/api/TD', methods=['POST', 'GET'])
 def titledata():
     response_data = {
         "AutoMuteCheckedHours": {
